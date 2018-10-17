@@ -1,2 +1,2 @@
 # biarritz-0918-php-ESO_Logs
-Log solution for Elder Of Scroll online
+Sharing Combat Logs solution for Elder Scrolls Online
