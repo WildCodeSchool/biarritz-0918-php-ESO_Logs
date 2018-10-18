@@ -86,7 +86,7 @@
 		width: 80rem;
 	}
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1920px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -382,7 +382,7 @@
 	.\36 u, .\36 u\24 {
 		width: 50%;
 		clear: none;
-		margin-left: 0;
+		margin-left: 25%;
 	}
 
 	.\35 u, .\35 u\24 {
