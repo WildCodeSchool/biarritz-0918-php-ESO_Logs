@@ -10,7 +10,7 @@
     ?>
 	<body class="subpage">
         <?php
-            include('headernav');
+            include('headernav.php');
         ?>
 
 		<!-- One -->
