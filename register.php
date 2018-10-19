@@ -5,47 +5,27 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<head>
-    <title>Login</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
-</head>
+    <?php
+		include('head.php');
+	?>
 <body class="subpage">
-
-<!-- Header -->
-<header id="header">
-    <div class="logo"><a href="../index.html">ESO Logs <span>by BazESO</span></a></div>
-    <a href="#menu">Menu</a>
-</header>
-
-<!-- Nav -->
-<nav id="menu">
-    <ul class="links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../generic.html">Generic</a></li>
-        <li><a href="../elements.html">Elements</a></li>
-    </ul>
-</nav>
-
+    <?php
+        include('headernav.php');
+    ?>
 <!-- One -->
 <section id="One" class="wrapper style3">
     <div class="inner">
         <header class="align-center">
             <p>ESO Logs</p>
-            <h2>Log into your account</h2>
+            <h2>Create an account</h2>
         </header>
         <div class="align-center">
             <form method="post" action="#">
                 <div class="6u -3u(xlarge) 12u$(xsmall)">
                     <input type="text" id="pseudo" name="pseudo" value placeholder="Pseudo" required><br>
+                    <input type="email" id="email" name="email" value placeholder="Email" required><br>
                     <input type="password" id="password" name="password" value placeholder="Password" required><br>
-                    <div style="text-align:left;">
-                        <input type="checkbox" id="copy" name="copy">
-                        <label for="copy">Remember me</label><br>
-                        <a href="login.php" style="color: rgba(138, 138, 138, 0.7);">Forgot your password ?</a><br><br>
-                    </div>
-                    
+                    <input type="password" id="confirmPassword" name="confirmPassword" value placeholder="Confirm password" required><br>
                     <input type="button" class="button fit" value="Submit">
                 </div>
             </form>
