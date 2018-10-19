@@ -17,8 +17,8 @@
 			<section id="One" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>Eleifend vitae urna</p>
-						<h2>Generic Page Template</h2>
+						<p>Eso logs</p>
+						<h2>Share your logs</h2>
 					</header>
 				</div>
 			</section>
@@ -27,11 +27,12 @@
 			<section id="two" class="wrapper style2">
 				<div class="inner">
 					<div class="box">
-						<div class="content">
+						<div class="content align-center">
 							<header class="align-center">
 								<p>maecenas sapien feugiat ex purus</p>
 								<h2>Lorem ipsum dolor</h2>
 							</header>
+							<a href="#" class="button icon fa-cloud-upload">Share</a>
 						</div>
 					</div>
 				</div>
