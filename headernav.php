@@ -12,6 +12,6 @@
         <li><a href="login.php">Login</a></li>
         <li><a href="generic.html">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
-        <li><a href="share.html">Share your logs</a></li>
+        <li><a href="share.php">Share your logs</a></li>
     </ul>
 </nav>

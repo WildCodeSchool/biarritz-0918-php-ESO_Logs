@@ -21,7 +21,7 @@
         </header>
         <div class="align-center">
             <form method="post" action="#">
-                <div class="6u -3u(xlarge) 12u$(xsmall)">
+                <div class="6u -3u(xlarge) 12u$(xsmall)" style="margin-left:25%;">
                     <input type="text" id="pseudo" name="pseudo" value placeholder="Pseudo" required><br>
                     <input type="email" id="email" name="email" value placeholder="Email" required><br>
                     <input type="password" id="password" name="password" value placeholder="Password" required><br>
